@@ -1,8 +1,8 @@
-NAME = My_Awesome_PhoneBook
+NAME = BraiiiiiiinnnzzzZ
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Wall -std=c++98
 
-SRC = PhoneBook.cpp Contact.cpp main.cpp
+SRC = Zombie.cpp newZombie.cpp randomChump.cpp main.cpp
 OBJS = $(SRC:.cpp=.o)
 all: $(NAME)
 
