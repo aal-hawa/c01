@@ -3,7 +3,8 @@
 Zombie::Zombie(std::string name)
 {
 	_name = name;
-	std::cout << _name << ": Hi in ex00..." << std::endl;
+	std::cout << _name << ": Hi in ex01..." << std::endl;
+
 }
 
 void	Zombie::announce(void)
@@ -12,5 +13,5 @@ void	Zombie::announce(void)
 }
 Zombie::~Zombie()
 {
-	std::cout << _name << ": See you in ex01..." << std::endl;
+	std::cout << _name << ": See you in ex02..." << std::endl;
 }
