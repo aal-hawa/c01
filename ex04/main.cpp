@@ -20,6 +20,7 @@ int main(int ac, char **av)
 	if (!fileReplace)
 	{
 		std::cout << "Error to open this file: " << fileName + ".replace" <<  std::endl;
+		file.close();
 		return (1);
 	}
 	std::string line;

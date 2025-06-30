@@ -13,12 +13,6 @@ HumanB::~HumanB()
 	std::cout << _name << ": Good Bye Human B..." << std::endl;
 
 }
-// void HumanB::setWeapon(Weapon weapon)
-// {
-// 	*_weapon = weapon;
-// 	std::cout << _name << ": set new weapon..." << std::endl;
-
-// }
 
 void HumanB::setWeapon(Weapon &weapon)
 {
